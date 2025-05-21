@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luméa | Skincare Reimagined</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Luméa</h1>
+    <p>Glow Naturally. Feel Beautiful.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Card/Info Section -->
+    <div class="card">
+      <h2>Our Mission</h2>
+      <p>Luméa is committed to creating natural, effective skincare products that empower confidence and self-care through simplicity and science.</p>
+    </div>
+
+    <!-- Image Slider -->
+    <div class="slider">
+      <img class="slide active" src="images/lumea1.jpg" alt="Luméa Product 1" />
+      <img class="slide" src="images/lumea2.jpg" alt="Luméa Product 2" />
+      <img class="slide" src="images/lumea3.jpg" alt="Luméa Product 3" />
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <div id="formMsg"></div>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Luméa. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
